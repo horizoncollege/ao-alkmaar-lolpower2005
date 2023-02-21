@@ -1,0 +1,9 @@
+img moet PNG zijn.
+
+hangman1
+hangman2
+hangman3
+hangman4
+hangman5
+hangman6
+hangman7

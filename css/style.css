@@ -1,0 +1,16 @@
+#over-mij{
+    padding-top: 5%;
+}
+#bottom{
+    padding-bottom: 2%;
+}
+.images{
+    width: 100%;
+}
+link{
+    display: flex;
+    justify-content: center;
+}
+#title{
+    margin-bottom: 1%;
+}

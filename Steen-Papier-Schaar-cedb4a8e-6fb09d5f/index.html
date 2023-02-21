@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Rock, Paper, Scissors</title>
+	<script src="script.js"></script>
+	<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+	<h1>Rock, Paper, Scissors</h1>
+	<div>
+		<img src="rock.png" alt="steen" onclick="document.getElementById('player1').value = 'rock';" />
+		<img src="paper.png" alt="papier" onclick="document.getElementById('player1').value = 'paper';" />
+		<img src="scissors.png" alt="schaar" onclick="document.getElementById('player1').value = 'scissors';" />
+	</div>
+	<div>
+		<img src="rock.png" alt="steen" onclick="document.getElementById('player2').value = 'rock';" />
+		<img src="paper.png" alt="papier" onclick="document.getElementById('player2').value = 'paper';" />
+		<img src="scissors.png" alt="schaar" onclick="document.getElementById('player2').value = 'scissors';" />
+	</div>
+	<input type="hidden" id="player1" />
+	<input type="hidden" id="player2" />
+	<button onclick="playRound();">Play Round</button>
+	<div id="result"></div>
+</body>
+
+</html>

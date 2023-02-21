@@ -1,0 +1,239 @@
+html {
+    display: flex;
+    align-self: auto;
+    background-color: rgb(0, 85, 255);
+}
+
+
+.titel {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+/*body {
+    margin: 0;
+}*/
+
+.body {
+    display: flex;
+    justify-content: center;
+}
+
+.ul {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(120, 120, 227);
+    position: absolute;
+    height: 84%;
+    overflow: auto;
+    border: 2px solid black;
+    border-radius: 10px;
+    max-width: 80%;
+}
+
+li a {
+    display: flex;
+    flex-wrap: wrap;
+    color: #000;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+.contactdeel1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+
+.deel1 {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.deel2 {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+}
+.deel1hobbies{
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 30px;
+    justify-content: space-evenly;
+    align-content: center;
+}
+
+.sectionA {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 70px;
+    justify-content: center;
+    background-color: #a6a6a6;
+    border-radius: 10px;
+}
+
+.sectionB {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: flex-start;
+    background-color: #0ac1d5;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1, 5vw;
+    font-size: 130%;
+}
+
+.contactsectionB {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: center;
+    background-color: #0ac1d5;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1, 5vw;
+}
+
+.contactfotos img {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 30px;
+    justify-content: center;
+}
+
+.ironman {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vw;
+    background: #a6a6a6;
+    width: 40%;
+    float: left;
+    align-content: flex-end;
+    margin-left: 20px;
+    font-size: 1, 5vw;
+}
+
+.thebatman {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vw;
+    background: #a6a6a6;
+    width: 60%;
+    float: right;
+    align-content: flex-end;
+    margin-left: 20px;
+    font-size: 1, 5vw;
+}
+
+.contactgif {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vw;
+    background: #a6a6a6;
+    width: 50%;
+    float: left;
+    align-content: flex-end;
+    margin: 10px;
+    font-size: 1, 5vw;
+}
+
+.sectionC {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    justify-content: flex-start;
+    background-color: #0ac1d5;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1, 5vw;
+}
+
+input {
+    width: 200px;
+    border-radius: 5px
+}
+
+.jackgif {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vw;
+    background: #a6a6a6;
+    width: 40%;
+    float: left;
+    align-content: flex-end;
+    margin-left: 20px;
+    font-size: 1, 5vw;
+}
+
+.imghobbies {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vw;
+    background: #a6a6a6;
+    float:none;
+    align-content: flex-end;
+    margin-left: 40px;
+    font-size: 1, 5vw;
+    margin-right: 10px;
+}
+
+.footer {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-end;
+    align-self: auto;
+    background-color: gray;
+    bottom: 0px;
+    width: 100%;
+    height: 2.5rem;
+    padding-bottom: 1.0rem;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-size: 1, 5vw;
+}
+
+.steam {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vw;
+    background: #a6a6a6;
+    float:none;
+    align-content: flex-end;
+    margin-left: 40px;
+    font-size: 1, 5vw;
+    margin-right: 10px;
+}
+
+.lucifer {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 21vw;
+    background: #a6a6a6;
+    width: 100%;
+    float: left;
+    align-content: flex-end;
+    margin-left: 20px;
+    font-size: 1, 5vw;
+}
