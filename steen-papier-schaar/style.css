@@ -1,0 +1,34 @@
+.buttons {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    padding: 30px;
+}
+
+.button, img {
+    width: 40%;
+}
+
+.hidden {
+    display: none;
+}
+
+.confirm {
+    width: 50%;
+}
+
+.confirm:hover {
+    width: 50%;
+    transition: 700ms;
+    background-color: green;
+}
+
+.main-portion {
+    display: flex;
+    justify-items: center;
+    flex-direction: column;
+}
+
+#confirm {
+    padding: 10px;
+}
