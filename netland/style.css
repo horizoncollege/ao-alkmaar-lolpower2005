@@ -1,0 +1,59 @@
+body {
+    background-color: rgb(18, 18, 39);
+    color: aliceblue;
+}
+
+.titel {
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    display: flex;
+    justify-content: center;
+
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+}
+
+tr,
+th,
+td {
+    border: 1px solid #373743;
+    background-color: #373743;
+    padding: 8px;
+}
+
+a,
+td {
+    text-decoration: none;
+    color: aliceblue;
+
+}
+
+.informatie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.button,
+button {
+    border: 1px solid #373743;
+    background-color: #373743;
+    padding: 8px;
+}
+
+.info {
+    display: flex;
+    justify-content: center;
+}
+
+.invoer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
