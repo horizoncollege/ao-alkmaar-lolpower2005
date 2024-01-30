@@ -1,39 +1,61 @@
-<!doctype html>
-<html lang="en" data-bs-theme="dark">
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dashboard</title>
+    <meta charset="UTF-8">
+    <link rel="shortcut icon" class="logo" href="img/dashboardlogo.png" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
 </head>
 
-<body class="row bg-light rounded">
-    <div id="title"></div>
-    <div id="over-mij" class="col-sm-2"></div>
-    <div class="col-sm-2 bg-primary"></div>
-    <div class="col-sm-4 bg-primary">
-        <h1>Dashboard van Thomas Meijer</h1>
-    </div>
-    <div class="col-sm-2 bg-primary"></div>
-    <div class="col-sm-2"></div>
-    <div class="col-sm-2"></div>
-    <p id="bottom" class="col-sm-8 bg-primary text-white">
-        Welkom ik ben Thomas Meijer en dit is mijn Dashboard waar je een aantal projecten die ik heb gemaakt op mijn
-        <br>
-        opleiding software development heb gemaakt
-    </p>
-    <div>
-    <a class="col-sm-3 offset-sm-1 btn " href="deep-dive-bootstrap-partij-csp/index.html" target="_blank" role="button"><img src="img/CSP.PNG" class="images" alt="CSP"></a>
-    <a class="col-sm-3  btn " href="Galgje-30f6e6f4-3cb0f180/index.php" target="_blank" role="button"><img src="img/galgje.PNG" class="images" alt="galgje"></a>
-    <a class="col-sm-3  btn " href="mijn-website/index.html" target="_blank" role="button"><img src="img/mijnwebsite.PNG" class="images" alt="mijn-website"></a>
-    <a class="col-sm-3 offset-sm-1 btn " href="Jarvis-Gehacked-902e5f22-8ae3f21e/index.html" target="_blank" role="button"><img src="img/jarvisgehackt.PNG" class="images" alt="steen papier schaar"></a>
-    <a class="col-sm-3  btn " href="Steen-Papier-Schaar-cedb4a8e-6fb09d5f/index.html" target="_blank" role="button"><img src="img/steenpapierschaar.PNG" class="images" alt="javascriptstp"></a>
-    <a class="col-sm-3  btn " href="steen-papier-schaar/index.php" target="_blank" role="button"><img src="img/rockpaperscissors.PNG" class="images" alt="rockpaperscissors"></a>
-    <a class="col-sm-3 offset-sm-1 btn " href="netland/index.php" target="_blank" role="button"><img src="img/Netland.PNG" class="images" alt="Netland"></a>
-</div>
+<body>
+    <header>
+        <div class="nav">
+            <h1>Dashboard van Thomas Meijer</h1>
+            <P>
+                Welkom ik ben Thomas Meijer en dit is mijn Dashboard waar je een aantal projecten die ik heb gemaakt op
+                mijn opleiding software development.
+            </p>
+        </div>
+    </header>
+    <main>
+        <div class="buttons">
+            <div class="row1">
+                <a class="button" href="netland/index.php" target="_blank" role="button"><img src="img/Netland.PNG"
+                        class="images" alt="Netland"></a>
+                <a class="button" href="Galgje-30f6e6f4-3cb0f180/index.php" target="_blank" role="button"><img
+                        src="img/galgje.PNG" class="images" alt="galgje"></a>
+                <a class="button" href="deep-dive-bootstrap-partij-csp/index.html" target="_blank" role="button"><img
+                        src="img/CSP.PNG" class="images" alt="CSP"></a>
+            </div>
+            <div class="row2">
+                <a class="button" href="html/error.html" target="_blank" role="button"><img src="img/kart.PNG"
+                        class="images" alt="Kart"></a>
+                <a class="button" href="mijn-website/index.html" target="_blank" role="button"><img
+                        src="img/mijnwebsite.PNG" class="images" alt="mijn-website"></a>
+                <a class="button" href="Steen-Papier-Schaar-cedb4a8e-6fb09d5f/index.html" target="_blank"
+                    role="button"><img src="img/steenpapierschaar.PNG" class="images" alt="javascriptstp"></a>
+            </div>
+            <div class="row3">
+                <a class="button" href="steen-papier-schaar/index.php" target="_blank" role="button"><img
+                        src="img/rockpaperscissors.PNG" class="images" alt="rockpaperscissors"></a>
+                <a class="button" href="https://169013.ao-alkmaar.nl/wordpress/" target="_blank" role="button"><img
+                        src="img/woocommerce.PNG" class="images" alt="woocommerce"></a>
+                <a class="button" href="Jarvis-Gehacked-902e5f22-8ae3f21e/index.html" target="_blank" role="button"><img
+                        src="img/jarvisgehackt.PNG" class="images" alt="steen papier schaar"></a>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <p>Copyright &copy;
+            <script type="text/javascript">
+                var theDate = new Date()
+                document.write(theDate.getFullYear());
+            </script> | Thomas Meijer | bij vragen kunt u mailen naar:<a
+                href="mailto:169013@student.horizoncollege.nl">169013@student.horizoncollege.nl</a>
+        </p>
+    </footer>
 </body>
 
 </html>
